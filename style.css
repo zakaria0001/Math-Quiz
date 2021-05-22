@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Sarala';
+    src: url('../assets/Sarala-Regular.ttf');
+}
+body{
+    background-color:grey;
+}
+body h2{
+    font-family: 'Roboto Slab', serif;
+        text-align: center;
+    font-size: 50px;
+}
+#box{
+    width: 300px;
+    margin-left: 5%;
+    margin-right: 20%;
+background-color: white;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+height:331px;
+border-radius: 30px;
+border-width: 2px;
+border-style:solid;
+}
+#countdown{
+    color: red;
+font-family:Sarala ;
+float: right;
+}
+#score{
+    font-size: 20px;
+    font-family:Sarala ;
+
+}
+#FirstNum{
+    background-color: white;
+    border: none;
+    color: rgba(24, 69, 229, 0.76);
+    font-size: 30px;
+}#SecondNum{
+    background-color: white;
+    border: none;
+    color: rgba(24, 69, 229, 0.76);
+    font-size: 30px;
+    margin-top: -20px;
+
+}
+#status{
+    color: rgba(24, 69, 229, 0.76);
+    font-size: 30px;
+        margin-left: -8%;
+        margin-top: -1px;
+width: fit-content;
+}#res{
+    color: rgba(24, 69, 229, 0.76);
+    font-size: 30px;
+        margin-left: -8%;
+        margin-bottom: -30px;;
+width: fit-content;
+}
+#Result{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color:rgba(24, 69, 229, 0.76);
+    font-size: 30px;
+  width: 140px;
+}
+#Result:focus{
+    outline:none;
+}
+#submit{
+    background-color:rgba(24, 69, 229, 0.76);
+    margin-top:4.2%;
+    margin-left:-13.5%;
+    width: 381px;
+    height: 52px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    border: none;;
+    font-family:Sarala ;
+    font-size: 30px;
+
+}
+#submit:focus{
+    outline: none;
+}
+#nivdiff{
+    float: right;
+    display: block;
+    width: 90px;
+    position: absolute;
+    top: 35%;
+    right: 40%;
+    position: fixed;
+    font-family:Sarala ;
+    font-size: 20px;
+}
+
+
+    #nivdiff input:checked{
+        background: red ;
+      }
